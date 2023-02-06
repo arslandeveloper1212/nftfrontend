@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+.btn_1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background: linear-gradient(#F58835, #D74736);
+    color: white;
+    letter-spacing: 1px;
+}
+
+.btn_outline{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    border: 2px solid white;
+    color: white;
+    background:0;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+.btn_outline:hover{
+   
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    border-radius: 6px;
+    background: linear-gradient(#F58835, #D74736);
+    color: white;
+   
+    border: 0;
+}
+
+.btn_1_sendicon{
+    padding: 10px 20px;
+    border-radius: 6px;
+    background: linear-gradient(#F58835, #D74736);
+    color: white;
+    letter-spacing: 1px;
+}
+
+.custom_join{
+ background: linear-gradient(#F58835, #D74736);
+ border: none;
+ 
+}
+
+.navbar_hit_all{
+    background-color: antiquewhite;
+    width: 100%;
+    background: black;
+    padding: 20px 0;
+}
+
+.navbar_hit_all a{
+ color: white;
+ text-decoration: none;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 500;
+}
+
+.custom_hit a{
+    color: white;
+    text-decoration: none;
+    padding: 0 25px;
+    position: relative;
+    line-height: 2;
+   
+}
+
+.custom_hit a:hover::after{
+   content: "";
+   position: absolute;
+   background-color: pink;
+   width: 60%;
+   height: 2px;
+    bottom: -40%;
+    left: 20%;
+   
+ 
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+.HeroSection_all, .RoadMap_all{
+    background-color: black;
+}
+
+.HeroSection_all .heading, .OurPopular_all .heading{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+   
+
+}
+
+
+.BreadCrumb_all{
+ 
+    background-image: linear-gradient(to bottom, rgba(3, 3, 3, 0.967), rgba(0, 0, 0, 0.818)) ,url(../../public/images/background_ill.png);
+    
+    width: 100%;
+    height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.custom_BreadCrumb{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 20px;
+ flex-wrap:wrap;
+}
+.custom_BreadCrumb p{
+   padding: 10px 50px;
+   display: flex;
+    flex-direction: row;
+    animation-name: arslan;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes arslan {
+    0% {color: #D74736;}
+    25%{ color: #F58835;}
+    50% {color: #f4f4f4;}
+    100%{ color: #f16f0b;}
+}
+
+.border-gradient {
+    border: 10px solid;
+    border-image-slice: 3;
+    border-width: 3px;
+    
+    
+  }
+  .border-gradient-purple {
+    border-image-source: linear-gradient(to left, #F58835, #D74736 );
+   
+  }
+  
+.OurPopular_all{
+    background-color: black;
+}
+
+.OurPopular_all .heading h2{
+    font-size: 50px;
+    color: white;
+}
+ 
+.roadmap_handle h1{
+   
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+
+
+.RoadMap_handle_1{
+    
+    padding: 30px 70px;
+    color: white;
+    background: linear-gradient(#1E0E20, #201414);
+    border-radius: 12px;
+    position: relative;
+}
+
+.RoadMap_handle_1 .btn_1{
+    position: absolute;
+    left: 30%;
+    top: 100;
+}
+
+.RoadMap_line_under_card{
+    position: relative;
+}
+
+.circle_one{
+    width: 60px;
+    height: 60px;
+    content: "";
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 100;
+}
+
+.collection_black, .contact_all{
+    background-color: black;
+    
+    width: 100%;
+    height: auto;
+}
+
+.contact_detail{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 30px;
+    font-size: 54px;
+}
+
+.footer_background{
+    background-color: black;
+}
+
+#button-addon2{
+
+    margin-top: -1px;
+    margin-bottom: -2px;
+}
+
+@media only screen and (max-width: 992px) {
+   .custom_hit a::after {
+      display: none;
+    }
+  }
+
+
