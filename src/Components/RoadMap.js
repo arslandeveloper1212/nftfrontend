@@ -22,7 +22,7 @@ const RoadMap = () => {
                                     </div>
                                 </div>
                                 <div className='col-md-4 col-lg-4 col-12'>
-                                    <img src='./images/card-img-1.png' alt='img-3' className='img-fluid d-flex m-auto pt-lg-0 pt-sm-5 pb-sm-5' width="160px" />
+                                    <img src='./images/card-img-1.png' alt='img-3' className='img-fluid d-flex m-auto pt-lg-0' width="160px" />
 
 
                                 </div>
